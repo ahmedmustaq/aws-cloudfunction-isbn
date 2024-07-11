@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ONIXMessage release="3.0" xmlns="http://ns.editeur.org/onix/3.0/reference">
+  <Header>
+    <Sender>
+      <SenderName>Penguin Random House</SenderName>
+      <ContactName>Laura Williams</ContactName>
+      <EmailAddress>Laura.payne@uk.penguingroup.com</EmailAddress>
+    </Sender>
+    <SentDateTime>20210429T1001</SentDateTime>
+    <DefaultLanguageOfText>eng</DefaultLanguageOfText>
+  </Header>
+  <Product>
+    <RecordReference>PenguinIndia765849</RecordReference>
+    <NotificationType>03</NotificationType>
+    <RecordSourceType>01</RecordSourceType>
+    <RecordSourceName>Penguin India</RecordSourceName>
+    <ProductIdentifier>
+      <ProductIDType>01</ProductIDType>
+      <IDTypeName>Virtusales Biblio ID</IDTypeName>
+      <IDValue>765849</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>02</ProductIDType>
+      <IDValue>0143451871</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>9780143451877</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9780143451877</IDValue>
+    </ProductIdentifier>
+    <Barcode>
+      <BarcodeType>00</BarcodeType>
+    </Barcode>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>BC</ProductForm>
+      <ProductFormDetail>B105</ProductFormDetail>
+      <ProductFormDescription>B-format paperback</ProductFormDescription>
+      <Measure>
+        <MeasureType>01</MeasureType>
+        <Measurement>198</Measurement>
+        <MeasureUnitCode>mm</MeasureUnitCode>
+      </Measure>
+      <Measure>
+        <MeasureType>02</MeasureType>
+        <Measurement>129</Measurement>
+        <MeasureUnitCode>mm</MeasureUnitCode>
+      </Measure>      
+      <ProductClassification>        
+        <ProductClassificationType>01</ProductClassificationType>        
+        <ProductClassificationCode>490199</ProductClassificationCode>        
+        <Percent>100.000</Percent>        
+      </ProductClassification>   
+      <ProductClassification>        
+        <ProductClassificationType>03</ProductClassificationType>        
+        <ProductClassificationCode>49019900</ProductClassificationCode>        
+        <Percent>100.000</Percent>        
+      </ProductClassification>
+      <NoCollection />
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <NoPrefix />
+          <TitleWithoutPrefix>That Night</TitleWithoutPrefix>
+          <Subtitle>Four Friends. Twenty Years. One Haunting Secret.</Subtitle>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <SequenceNumber>1</SequenceNumber>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Nidhi Upadhyay</PersonName>
+        <PersonNameInverted>Upadhyay, Nidhi</PersonNameInverted>
+        <NamesBeforeKey>Nidhi</NamesBeforeKey>
+        <KeyNames>Upadhyay</KeyNames>
+        <BiographicalNote textformat="02"><![CDATA[Nidhi Upadhyay is an engineer-turned-headhunter. For years, Nidhi spent her days matchmaking senior executives to their dream jobs and her nights reading thrillers, until her husband borderline bullied her into writing one. She lives in Singapore with her doting husband and two exceptionally loving but polar-opposite boys. <i>That Night</i> is her debut novel.]]></BiographicalNote>
+      </Contributor>
+      <ContributorStatement>Nidhi Upadhyay</ContributorStatement>
+      <NoEdition />
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <Extent>
+        <ExtentType>00</ExtentType>
+        <ExtentValue>288</ExtentValue>
+        <ExtentUnit>03</ExtentUnit>
+      </Extent>
+      <Subject>
+        <MainSubject />
+        <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>2.1</SubjectSchemeVersion>
+        <SubjectCode>FH</SubjectCode>
+        <SubjectHeadingText>Thriller / Suspense</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>2.1</SubjectSchemeVersion>
+        <SubjectCode>FF</SubjectCode>
+        <SubjectHeadingText>Crime &amp; Mystery</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>2.1</SubjectSchemeVersion>
+        <SubjectCode>FA</SubjectCode>
+        <SubjectHeadingText>Modern and contemporary Fiction (post 1945)</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>2.1</SubjectSchemeVersion>
+        <SubjectCode>FJ</SubjectCode>
+        <SubjectHeadingText>Adventure</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <MainSubject />
+        <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>2020</SubjectSchemeVersion>
+        <SubjectCode>FIC031000</SubjectCode>
+        <SubjectHeadingText>FICTION / Thrillers / General</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>2020</SubjectSchemeVersion>
+        <SubjectCode>FIC031010</SubjectCode>
+        <SubjectHeadingText>FICTION / Thrillers / Crime</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>2020</SubjectSchemeVersion>
+        <SubjectCode>FIC050000</SubjectCode>
+        <SubjectHeadingText>FICTION / Crime</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>2020</SubjectSchemeVersion>
+        <SubjectCode>FIC022000</SubjectCode>
+        <SubjectHeadingText>FICTION / Mystery &amp; Detective / General</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>2020</SubjectSchemeVersion>
+        <SubjectCode>FIC002000</SubjectCode>
+        <SubjectHeadingText>FICTION / Action &amp; Adventure</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <MainSubject />
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.4</SubjectSchemeVersion>
+        <SubjectCode>FH</SubjectCode>
+        <SubjectHeadingText>Thriller / suspense fiction</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.4</SubjectSchemeVersion>
+        <SubjectCode>FF</SubjectCode>
+        <SubjectHeadingText>Crime and mystery fiction</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.4</SubjectSchemeVersion>
+        <SubjectCode>FBA</SubjectCode>
+        <SubjectHeadingText>Modern and contemporary fiction</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.4</SubjectSchemeVersion>
+        <SubjectCode>FJ</SubjectCode>
+        <SubjectHeadingText>Adventure fiction</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+        <SubjectHeadingText>That Night; Nidhi Upadhyay; Secretly yours; Vikrant Khanna; the girl who knew too much; the girl who disappeared; Paranormal romance; supernatural; suspense, thriller; erotica; horror; scary; Stephen king; murder; killing; secretly yours; secret; disappearance; Gillian flyn; gone girl; paula Hawkins; the girl on the train; ghosts; spirits; mystery; novoneel; novoneel Chakraborty; stranger; the stranger series; how about a sin tonight; paranormal experiences; occult; voodoo; planchette; scared; ram gopal verma; bhoot; the shining; vampires; zombies; Halloween; dead; afterlife; resurrection; relationship; friendship; romance; romantic; durjoy dutta; ravinder singh; sudeep nagarkar; preeti Shenoy; savi sharma; college; friend; request; friend request; it started with a friend request; double the pleasure; Danielle steel; marry me stranger; all yours stranger; forget me not stranger; arpit vageria; you are the best wife; ajay pandey; the perfect us; anuj tiwari; john green; the fault in our stars; josie silver; her last wish; stories we never tell; paying guest; the girl with the secret crush; everyone has a story; sudeep; give your heart a break; will you still love me; I too had a love story; can love happen twice; this love that feels right; your dreams are mine now; looking for Alaska; you are my reason to smile; one day in December; the two lives of Lydia bird; tinder; dating; date; corny; cheesy; the hating game; sally thorne; marian keyes; wish I could tell you; till the last breath; the boy who loved; you were my crush; of course I love you; the girl of my dreams</SubjectHeadingText>
+      </Subject>
+      <Audience>
+        <AudienceCodeType>01</AudienceCodeType>
+        <AudienceCodeValue>01</AudienceCodeValue>
+      </Audience>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent>
+        <TextType>12</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text textformat="02"><![CDATA[Nidhi Upadhyay is an engineer-turned-headhunter. For years, Nidhi spent her days matchmaking senior executives to their dream jobs and her nights reading thrillers, until her husband borderline bullied her into writing one. She lives in Singapore with her doting husband and two exceptionally loving but polar-opposite boys. <i>That Night</i> is her debut novel.]]></Text>
+      </TextContent>
+      <TextContent>
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text textformat="02"><![CDATA[<p><b>What happens when an innocent prank goes horribly wrong?</b><br><br>Natasha, Riya, Anjali and Katherine were best friends in college - each different from the other yet inseparable - until that night.<br><br>It was the night that began with a bottle of whisky and a game of Ouija but ended with the death of Sania, their unlikeable hostel mate. The friends vowed never to discuss that fateful night, a pact that had kept their friendship and guilt dormant for the last twenty years. <br><br>But now, someone has begun to mess with them, threatening to reveal the truth that only Sania knew. Is it a hacker playing on their guilt or has Sania's ghost really returned to avenge her death?<br><br>As the faceless enemy closes in on them, the friends come together once again to recount what really happened that night. But when the story is retold by each of them, the pieces don't fit. Because none of them is telling the whole truth . . .<br><br><i>That Night</i> is a dark, twisted tale of friendship and betrayal that draws you in and confounds you at every turn.</p>]]></Text>
+      </TextContent>
+      <SupportingResource>
+        <ResourceContentType>01</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>01</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>01</ResourceVersionFeatureType>
+            <FeatureValue>D502</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://biblioimages.penguinrandomhouse.co.uk/getimage.aspx?class=books&amp;assetversionid=13641461&amp;cat=default&amp;size=origjpg&amp;id=765849</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="00">20210111</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintIdentifier>
+          <ImprintIDType>01</ImprintIDType>
+          <IDTypeName>Virtusales Biblio ID</IDTypeName>
+          <IDValue>1335</IDValue>
+        </ImprintIdentifier>
+        <ImprintName>Penguin eBury Press</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherIdentifier>
+          <PublisherIDType>01</PublisherIDType>
+          <IDTypeName>Virtusales Biblio ID</IDTypeName>
+          <IDValue>1006</IDValue>
+        </PublisherIdentifier>
+        <PublisherName>Penguin Random House India Pvt. Ltd</PublisherName>
+      </Publisher>
+      <CountryOfPublication>IN</CountryOfPublication>
+      <PublishingStatus>02</PublishingStatus>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date dateformat="00">20210315</Date>
+      </PublishingDate>
+      <SalesRights>
+        <SalesRightsType>01</SalesRightsType>
+        <Territory>
+          <CountriesIncluded>AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW</CountriesIncluded>
+        </Territory>
+      </SalesRights>
+      <ROWSalesRightsType>00</ROWSalesRightsType>
+    </PublishingDetail>
+    <RelatedMaterial>
+      <RelatedWork>
+        <WorkRelationCode>02</WorkRelationCode>
+        <WorkIdentifier>
+          <WorkIDType>01</WorkIDType>
+          <IDTypeName>Biblio Work ID</IDTypeName>
+          <IDValue>445636</IDValue>
+        </WorkIdentifier>
+      </RelatedWork>
+    </RelatedMaterial>
+    <ProductSupply>
+      <Market>
+        <Territory>
+          <CountriesIncluded>AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW</CountriesIncluded>
+        </Territory>
+      </Market>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>01</SupplierRole>
+          <SupplierIdentifier>
+            <SupplierIDType>06</SupplierIDType>
+            <IDValue>5050085052727</IDValue>
+          </SupplierIdentifier>
+          <SupplierIdentifier>
+            <SupplierIDType>07</SupplierIDType>
+            <IDValue>0030872</IDValue>
+          </SupplierIdentifier>
+          <SupplierName>Penguin Random House UK</SupplierName>
+          <TelephoneNumber>+44 (0) 1206 255777</TelephoneNumber>
+        </Supplier>
+        <ProductAvailability>10</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceAmount>250.00</PriceAmount>
+          <Tax>
+            <TaxType>01</TaxType>
+            <TaxRateCode>Z</TaxRateCode>
+            <TaxRatePercent>0</TaxRatePercent>
+            <TaxableAmount>250.00</TaxableAmount>
+            <TaxAmount>0.00</TaxAmount>
+          </Tax>
+          <CurrencyCode>INR</CurrencyCode>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>

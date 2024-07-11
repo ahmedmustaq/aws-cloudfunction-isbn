@@ -1,0 +1,32 @@
+service: midlandbookshop-service
+provider:
+  name: aws
+  runtime: java8
+  profile: serverless-admin
+  region: us-east-2
+  timeout: 10
+  memorySize: 1024
+  iamRoleStatements:
+  - Effect: Allow
+    Action:
+    - s3:*
+    Resource:
+    - arn:aws:s3:::${self:custom.myBucket}/*
+    - Fn::Join:
+      - ''
+      - - 'arn:aws:s3:::'
+        - Ref: ServerlessDeploymentBucket
+        - /*
+custom:
+  myBucket: midlandbookshop
+package:
+  artifact: target/midlandbookshop-service.jar
+functions:
+  simpleEventTrigger:
+    handler: com.maintainapps.midlandbookshop.BookHandler
+    events:
+    - s3:
+        bucket: ${self:custom.myBucket}
+        event: s3:ObjectCreated:*
+        rules:
+        - suffix: .xml
